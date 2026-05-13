@@ -1,0 +1,1 @@
+// List of Ghanaian cities for weather

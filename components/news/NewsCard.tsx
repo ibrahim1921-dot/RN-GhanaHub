@@ -1,0 +1,1 @@
+// Individual news card

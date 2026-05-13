@@ -1,0 +1,1 @@
+// Full screen loading component with a spinner and a message
