@@ -24,6 +24,7 @@ export default function CustomInput({ label, error, style, ...props }: Props) {
         onBlur={() => setFocused(false)}
         placeholderTextColor="#999"
         {...props}
+
       />
       {error ? <Text style={styles.error}>{error}</Text> : null}
     </View>

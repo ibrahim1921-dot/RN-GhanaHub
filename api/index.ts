@@ -13,9 +13,9 @@ import { create } from 'axios';
  * @see https://newsapi.org
  */
 export const newsApi = create({
-    baseURL: 'https://newsapi.org/v1',
+    baseURL: 'https://newsapi.org/v2',
     params: {
-        apiKey: process.env.NEWS_API_KEY,
+        apiKey: process.env.EXPO_PUBLIC_NEWS_API_KEY,
     },
 });
 

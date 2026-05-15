@@ -11,7 +11,7 @@ export default function Index() {
       const seen = await storage.get('onboarding_complete');
       router.replace(seen ? '/login' : '/onboarding');
     })();
-  }, []);
+  }, [router]);
 
   return (
     <View style={styles.container}>
